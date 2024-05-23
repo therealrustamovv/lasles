@@ -1,0 +1,129 @@
+.nav {
+  padding: 50px 0px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  z-index: 99;
+  transition: all 500ms;
+}
+.nav__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav__list {
+  display: none;
+}
+.nav__title {
+  color: #0b132a;
+  font-family: "Rubik500";
+  font-size: 20px;
+}
+strong {
+  font-size: 25px;
+}
+.nav__link {
+  color: #4f5665;
+  font-family: "Rubik400";
+  font-size: 16px;
+}
+.nav__buttons {
+  display: none;
+  align-items: center;
+  gap: 30px;
+}
+.nav__btn {
+  color: #0b132a;
+  font-family: "Rubik500";
+  font-size: 16px;
+}
+.btn__active {
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  transition: all 500ms;
+}
+.btn__active:hover {
+  color: #fff;
+  background: #f53855;
+}
+#mode__btn {
+  width: 30px;
+  height: 30px;
+}
+.header__info {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+.header__box {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+.header__title {
+  max-width: 555px;
+  color: #0b132a;
+  font-family: "Rubik500";
+  font-size: 50px;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+.header__text {
+  max-width: 555px;
+  color: #4f5665;
+  font-family: "Rubik400";
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.header__btn {
+  max-width: 250px;
+  color: #fff;
+  font-family: "Rubik700";
+  font-size: 16px;
+  line-height: 25px;
+  padding: 17px 77px;
+  text-align: center;
+  background-color: #f53855;
+  border-radius: 10px;
+}
+.header__img {
+  width: 100%;
+}
+
+/* media start */
+@media (min-width: 500px) {
+  .nav__buttons {
+    display: flex;
+  }
+}
+@media (min-width: 980px) {
+  .nav__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+}
+@media (min-width: 1300px) {
+  .header__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__left {
+    text-align: left;
+  }
+  .header__img {
+    max-width: 560px;
+  }
+}

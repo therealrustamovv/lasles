@@ -1,0 +1,72 @@
+.dark .nav,
+.dark .header,
+.dark .main,
+.dark .footer {
+  background-color: #000;
+}
+.dark .nav__title,
+.dark .nav__link {
+  color: #fff;
+}
+.dark .nav__btn {
+  color: #fff;
+}
+.dark .nav__btn.btn__active {
+  border: 2px solid #fff;
+}
+.dark .nav__btn.btn__active:hover {
+  color: #000;
+  background-color: #fff;
+}
+.dark #navbar.navbar-shrink {
+  background: #000;
+  box-shadow: 0px 0px 10px 0px white;
+}
+.dark .header * {
+  color: #fff;
+}
+.dark .features__center {
+  background-color: #000;
+  box-shadow: 0px 0px 10px 0px #fff;
+}
+.dark .features__title,
+.dark .features__text {
+  color: #fff;
+  background-color: #000;
+}
+.dark .features__icon {
+  color: #fff;
+  background-color: #4f4e4e;
+}
+.dark .pricing__card {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0px 0px 10px 0px #fff;
+}
+.dark h2,
+.dark p,
+.dark a {
+  color: #fff;
+}
+.dark .sum__btn {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.dark .sum__btn:hover {
+  background: #fff;
+  border: 2px solid #000;
+  color: #000;
+}
+.dark #team-carousel .owl-dot span {
+  background-color: #fff;
+}
+.dark #team-carousel .owl-dot.active span {
+    background: #f53838;
+}
+.dark #navbar-responsive{
+    background: #000;
+}
+.dark #backtop{
+    box-shadow: 0px 0px 10px 5px #fff;
+}

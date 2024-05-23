@@ -1,0 +1,182 @@
+#help {
+  overflow: hidden;
+}
+.team-card {
+  max-width: 400px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  gap: 20px;
+  transition: all 500ms;
+}
+.team-card:hover {
+  border: 2px solid #f53838;
+}
+#team-carousel .owl-stage-outer .owl-stage {
+  width: 1280px;
+  display: flex;
+}
+#team-carousel .owl-stage-outer .owl-stage .owl-item {
+  max-width: 400px;
+  margin-right: 40px;
+}
+.team__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team__img {
+  max-width: 50px;
+}
+.team__box__card {
+  margin-left: -80px;
+}
+.box__card__title {
+  color: #0b132a;
+  text-align: center;
+  font-family: "Rubik500";
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+.box__card__text {
+  color: #4f5665;
+  text-align: center;
+  font-family: "Rubik400";
+  font-size: 14px;
+  line-height: 30px;
+}
+.team__stars {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.stars__text {
+  color: #0b132a;
+  font-family: "Rubik400";
+  font-size: 16px;
+  line-height: 30px;
+}
+.star {
+  color: #fea250;
+  font-size: 16px;
+}
+.team__card__text {
+  color: #0b132a;
+  font-family: "Rubik400";
+  font-size: 16px;
+  line-height: 30px;
+}
+#team-carousel {
+  position: relative;
+}
+#team-carousel :is(.owl-prev, .owl-next) {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #f53838;
+  border: 2px solid #f53838;
+  transition: all 0.5s;
+  bottom: -80px;
+  right: 0px;
+}
+#team-carousel :is(.owl-prev, .owl-next):hover {
+  background-color: #f53838;
+  color: #fff;
+}
+
+#team-carousel .owl-prev {
+  margin-top: -10000px;
+  right: 100px;
+}
+
+#team-carousel .owl-dots {
+  display: none;
+}
+#team-carousel .owl-dot span {
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+
+#team-carousel .owl-dot.active span {
+  width: 45px;
+  background: #f53838;
+}
+.help__box {
+  padding: 58px 70px;
+  margin-top: 100px;
+}
+.help__box,
+.help__card {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.help__title {
+  max-width: 371px;
+  color: #0b132a;
+  font-family: "Rubik500";
+  font-size: 35px;
+  line-height: 45px;
+  margin: auto;
+}
+.help__text {
+  max-width: 410px;
+  color: #4f5665;
+  font-family: "Rubik400";
+  font-size: 16px;
+  line-height: 30px;
+  margin: auto;
+}
+.help__btn {
+  width: 250px;
+  color: #fff;
+  font-family: "Rubik700";
+  font-size: 16px;
+  line-height: 25px;
+  padding: 17px 65px;
+  border-radius: 10px;
+  background: #f53838;
+  margin: auto;
+  white-space: nowrap;
+}
+
+@media (min-width: 820px) {
+  .help__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .help__card {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .help__text {
+    margin-left: 0;
+  }
+  .help__btn {
+    margin-right: 0;
+  }
+  #team-carousel .owl-dots {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+  }
+  #team-carousel :is(.owl-prev, .owl-next) {
+    bottom: 0;
+  }
+}

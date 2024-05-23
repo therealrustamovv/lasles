@@ -1,0 +1,130 @@
+.features__center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px black;
+  margin-bottom: 100px;
+}
+.features__box {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 72px 0px;
+  gap: 30px;
+}
+.features__box:nth-child(1),
+.features__box:nth-child(2) {
+  border-right: 1px solid #eeeff2;
+}
+.features__icon {
+  font-size: 24px;
+  color: #f53838;
+  background-color: #ffecec;
+  border-radius: 70px;
+  padding: 15px;
+}
+.features__title {
+  color: #0b132a;
+  font-family: "Rubik700";
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+.features__text {
+  color: #4f5665;
+  font-family: "Rubik400";
+  font-size: 20px;
+  line-height: 30px;
+}
+.features__bottom__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+.features__bottom__img {
+  width: 100%;
+}
+.features__bottom__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.features__bottom__title {
+  max-width: 383px;
+  color: #0b132a;
+  font-family: "Rubik500";
+  font-size: 35px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.features__bottom__text {
+  max-width: 430px;
+  color: #4f5665;
+  font-family: "Rubik400";
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.features__units {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.features__unit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.features__unit__chek {
+  font-size: 14px;
+  color: #fff;
+  background: #2fab73;
+  padding: 5px;
+  border-radius: 50px;
+}
+.features__unit__text {
+  color: #4f5665;
+  font-family: 'Rubik400';
+  font-size: 14px;
+  line-height: 30px; 
+}
+
+@media (min-width: 700px) {
+  .features__center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+  }
+  .features__box {
+    width: 100%;
+  }
+}
+@media (min-width: 1000px) {
+  .features__bottom__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 160px;
+  }
+  .features__bottom__column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+  }
+  .features__bottom__img {
+    max-width: 500px;
+  }
+}

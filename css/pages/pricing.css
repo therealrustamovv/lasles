@@ -1,0 +1,76 @@
+.pricing__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.pricing__card {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 760px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  background: #fff;
+  overflow: hidden;
+}
+.pricing__img {
+  max-width: 144px;
+  height: 165px;
+}
+.pricing__title {
+  color: #0b132a;
+  text-align: center;
+  font-family: "Rubik500";
+  font-size: 18px;
+  line-height: 30px;
+}
+.pricing__units {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pricing__unit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pricing__unit__chek {
+  color: #2fab73;
+  font-size: 15px;
+}
+.pricing__sum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.sum__title {
+  color: #0b132a;
+  text-align: center;
+  font-family: "Rubik500";
+  font-size: 25px;
+  line-height: 30px;
+}
+.pricing__span {
+  color: #4f5665;
+  font-family: "Rubik400";
+  font-size: 25px;
+  line-height: 30px;
+}
+.sum__btn {
+  color: #f53838;
+  font-family: "Rubik700";
+  font-size: 16px;
+  padding: 13px 62px;
+  border-radius: 50px;
+  border: 2px solid #f53838;
+  transition: all 500ms;
+}
+.sum__btn:hover {
+  color: #fff;
+  background: #f53838;
+}
